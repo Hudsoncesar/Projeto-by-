@@ -2,10 +2,10 @@ from login import banco
 
 
 # BANCO DE DADOS
-contas = ["joão", "douglas"]  # joão so entra se for tudo minusculo
+contas = ["joão", "douglas"]  # joão so entra se for tudo minusculo (CONCERTEI)
 senhas = ["1234", "2345"]
 saldo = [1000, 500]
-renda = [1350, 0]
+renda = [1350, 1350]
 fatura = [600, 600]
 
 

@@ -12,20 +12,20 @@ def ind(y, lista):
     return -1
 
 
-# CADASTRO
+# Entrar
 def signup(contas, senhas, saldo, fatura, valorM, sorte, v, renda, moedas, valorIn):
     # ESTRUTURA DE REPETIÇÃO
     while True:
         print("---------------------\n--------Entrar-------\n---------------------\n")
         print("Informe seus dados de login.\nDigite [0] para sair")
 
-        x = input("Digite seu nome:")
+        x = (input("Digite seu nome:")).lower()
 
         if x == "0":
             break
 
         # Verificar se x está na lista de contas, mudar o índice para a posição da conta
-        if x.lower() in contas:
+        if x in contas:
             i = ind(x, contas)
             x = input("Digite sua senha:")
             # Verificar se a conta existe

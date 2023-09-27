@@ -1,0 +1,52 @@
+1-
+
+Existe varias listas contendo informaçoes como nome ,senha saldo, etc.
+O banco inicia pela parte de login.
+
+O login ira perguntar se voce quer entrar ou criar uma conta.
+
+Criar uma conta fara com que ele pergunte seu nome e senha se sua renda, 
+assim que essas informaçoes forem fornecidas ele ira mandar elas para as listas,
+com algumas informaçoes ja predefinidas como saldo, fatura, e moedas investidas.
+
+Ir para logar, ira pedir seu nome, ele confere se este nome esta na lista de contas,
+se estiver ele pede a senha, caso contrario ele diz que o login esta incorreto.
+O mesmo ocorre para senha.
+Tendo sua senha e login correto você agora pode entrar no banco.
+
+2- O menu possui uma estrutura de repitição e condição, esse padrão de estrutura
+se repete durante boa parte do codigo.
+
+Dependendo do numero digitado ele fara uma verficação e ira iniciar uma função de
+acordo com o numero.
+
+3- O primeiro menu e o conta.
+Nele tem o comando de pagar a fatura, que mostra sua fatura e pergunta se voce quer pagala.
+Tambem existe a função de mostrar o saldo, e função de esperar que esta ligada ao menu de investimento.
+
+4 - Menu de Emprestimo:
+Nesse menu voce pode pedir um emprestimo, dependendo da sua renda o emprestimo sera cancelado.
+Se ele for aceito, o valor ira para sua conta e uma fatura.
+
+5 - Menu de Transferencia
+Permite transferir dinherio entre contas.
+Ele pergunta a qual conta voce quer transferir, mostrando todas as contas no banco de dados do banco.
+
+Depois pergunta a quantidade que voce quer transferir.
+
+6 - Menu de Investimentos.
+
+Permite voce investir em criptomoedas.
+As criptomoedas possui um banco de dados a parte.
+Voce tem dois menus nesse de investimentos, o de Investir em novas moedas e moedas investidas.
+Investir em novas moedas mexe com os dados de cada conta referentes a moedas.
+O valor investido sera armazenado.
+
+O menu de Moedas ja investidas permite  voce retirar esse valor sem taxas extras.
+
+Voltando ao menu de conta, nele existe a opção de esperar, esperar mexe com a lista sorte que contem valores de 1 a -1. Se o valor for -1 ele vai ate 1 e vice versa.
+Esperar faz com que o valor atual seja somado a uma moeda, e depois ira subtrair ou somar de acordo com  ela. Se o valor for -1 ele ira somar 0.2 ate se tornar 1, se for 1 ira subtrair 0.1 ate chegar a -1.
+
+Valor era 1, esperar ele vira 0.9, esperou novamente, 0.8.
+
+7- O menu de Suporte, ele mostra um texto que explica como fazer coisas no banco.
