@@ -51,7 +51,7 @@ Para executar o Banco Py, siga estas etapas:
 Aqui estão os membros da equipe e suas respectivas funções:
 
 - **Luana** (Co-Facilitadora)
-- **Cássio** (Gestora de Gente e Engajamento)
-- **Luís Felipe** (Gestora de Conhecimento)
-- **Hudson** (Colaboradora I)
-- **Renan** (Colaboradora II)
+- **Cássio** (Gestor de Gente e Engajamento)
+- **Luís Felipe** (Gestor de Conhecimento)
+- **Hudson** (Colaborador I)
+- **Renan** (Colaborador II)
