@@ -8,7 +8,7 @@ Execute o pybank.py
 
 ## Descrição
 
-O Banco Py é um sistema de banco fictício criado para o projeto do curso. Este sistema simula funcionalidades bancárias básicas, como a criação de contas, gestão de saldos, transferências, empréstimos e investimentos em moedas criptografadas.
+O Banco Py é um sistema de banco fictício criado para o projeto do curso (Senac-Analise de Dados). Este sistema simula funcionalidades bancárias básicas, como a criação de contas, gestão de saldos, transferências, empréstimos e investimentos em moedas criptografadas.
 O Banco Py também oferece suporte ao cliente com informações sobre como usar as funcionalidades do sistema.
 
 
